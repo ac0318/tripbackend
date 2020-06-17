@@ -1,0 +1,10 @@
+server:
+  port: 8092
+  servlet:
+    context-path: /search
+spring:
+  data:
+    solr:
+      host: http://127.0.0.1:8088/solr/hotel
+    application:
+      name: search
